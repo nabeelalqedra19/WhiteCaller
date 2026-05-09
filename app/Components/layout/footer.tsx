@@ -202,7 +202,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-between gap-5">
+        <div className="flex flex-col lg:flex-row justify-between gap-5">
           <div className="text-lg leading-[1.5] text-center lg:text-start ">
             Copyright © <span className="text-secondary">WhiteCollar</span> |
             Designed by <span className="text-button">VictorFlow</span>{" "}
