@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AboutUs() {
+export default function About() {
   return (
     <div className="">
       <div className="app-container flex gap-7 flex-col lg:flex-row">

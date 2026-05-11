@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimoials() {
   return (
-    <div className="app-container pt-20 my-10 grid grid-cols-1 place-items-center lg:items-stretch lg:justify-items-stretch lg:grid-cols-3 gap-5">
+    <div className="app-container pt-20 my-30 grid grid-cols-1 place-items-center lg:items-stretch lg:justify-items-stretch lg:grid-cols-3 gap-5">
       <div className="lg:w-70">
         <div className="flex gap-2 items-center justify-center lg:justify-start mb-1 ">
           <div className="point w-3 h-3"></div>

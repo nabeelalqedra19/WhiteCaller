@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <div className="app-container my-10 flex flex-col gap-10">
+    <div className="app-container my-20 flex flex-col gap-10">
       <div>
         <div className="flex items-center justify-center gap-1">
           <div className="point"></div>
-          <div className="text-primary font-medium text-lg ">
+          <div className="text-primary font-medium text-sm sm:text-lg ">
             We Are Expertise In
           </div>
         </div>
 
-        <h1 className="text-primary font-bold text-[40px] leading[1.2] text-center ">
+        <h1 className="text-primary font-bold text-2xl sm:text-3xl md:text-[40px] leading[1.2] text-center ">
           We Provide Professional Business Solutions.
         </h1>
       </div>

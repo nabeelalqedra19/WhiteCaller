@@ -1,12 +1,12 @@
 import Header from "../Components/layout/header";
-import Menu from "../Components/layout/menu";
+import Menu from "../Components/reusable/menu";
 import Banner from "../features/home/banner";
-import AboutUs from "../features/home/aboutUs";
+import About from "../Components/reusable/aboutUs";
 import ClientLogo from "../features/home/clientLogo";
-import Services from "../features/home/services";
+import Services from "../Components/reusable/services";
 import WhyChoseMe from "../features/home/whyChoseMe";
 import Project from "../features/home/project";
-import Testimoials from "../features/home/testimonials";
+import Testimoials from "../Components/reusable/testimonials";
 import HowWeWork from "../features/home/howWeWork";
 import Team from "../features/home/team";
 import Blog from "../features/home/blog";
@@ -19,7 +19,7 @@ export default function HomePage() {
       <Header />
       <Menu />
       <Banner />
-      <AboutUs />
+      <About />
       <ClientLogo />
       <Services />
       <WhyChoseMe />

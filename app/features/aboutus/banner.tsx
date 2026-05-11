@@ -5,7 +5,14 @@ export default function Banner() {
   return (
     <div className="font-inter">
       {/* Banner */}
-      <div className="w-full h-100 md:h-130" style={{backgroundImage: "url('projects1.png')", backgroundSize: "cover", backgroundPosition: "center"}}>
+      <div
+        className="w-full h-100 md:h-130"
+        style={{
+          backgroundImage: "url('aboutus.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="w-full h-full lg:w-200 py-10 px-5 bg-[#37393FE8] flex justify-center items-center">
           <div className="w-130 flex flex-col justify-start items-between gap-5">
             <div className=" flex items-center justify-center lg:justify-start gap-1">

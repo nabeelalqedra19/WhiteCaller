@@ -17,7 +17,7 @@ export default function Menu() {
           <Link href={"/pages"} className="link">
             Pages
           </Link>
-          <Link href={"/services"} className="link">
+          <Link href={"/ourServices"} className="link">
             Services
           </Link>
           <Link href={"/blog"} className="link">
