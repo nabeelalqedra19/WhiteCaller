@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -23,7 +24,7 @@ export default function Services() {
               Financial Consultancy
             </h1>
 
-            <div className="text-button font-semibold text-sm cursor-pointer">Read More</div>
+            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
           </div>
 
           <Image
@@ -40,7 +41,7 @@ export default function Services() {
               Business Management
             </h1>
 
-            <div className="text-button font-semibold text-sm cursor-pointer">Read More</div>
+            <Link href={"/servicesSingle"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
           </div>
 
           <Image
@@ -57,7 +58,7 @@ export default function Services() {
               Consultants & program
             </h1>
 
-            <div className="text-button font-semibold text-sm cursor-pointer">Read More</div>
+            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
           </div>
 
           <Image
@@ -74,7 +75,7 @@ export default function Services() {
               Company Management
             </h1>
 
-            <div className="text-button font-semibold text-sm cursor-pointer">Read More</div>
+            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
           </div>
 
           <Image
@@ -91,7 +92,7 @@ export default function Services() {
               Financial Consultancy
             </h1>
 
-            <div className="text-button font-semibold text-sm cursor-pointer">Read More</div>
+            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
           </div>
 
           <div className="bg-secondary p-5 rounded-full ">
