@@ -44,7 +44,7 @@ export default function Content() {
             collaborative thinking.
           </p>
           <Link
-            href={"#"}
+            href={"/blogSingle"}
             className="text-button font-semibold text-center sm:text-start text-sm sm:text-lg "
           >
             Read More

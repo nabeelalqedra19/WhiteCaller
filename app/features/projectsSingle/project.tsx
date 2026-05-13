@@ -56,14 +56,14 @@ export default function Project() {
             </p>
           </div>
 
-          <ul className="list-disc text-[#7D7D7D] pl-8 py-8">
-            <li className="text-lg font-medium leading-[1.5]">
+          <ul className="unorder-list my-8">
+            <li className="list">
               the printing and typesetting industry.
             </li>
-            <li className="text-lg font-medium leading-[1.5] py-5">
+            <li className="list py-3">
               Lorem Ipsum has been the industrys standard{" "}
             </li>
-            <li className="text-lg font-medium leading-[1.5]">
+            <li className="list">
               It has survived not only five centuries.
             </li>
           </ul>

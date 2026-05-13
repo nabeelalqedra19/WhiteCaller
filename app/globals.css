@@ -30,4 +30,15 @@
   .pargaraph {
     @apply font-normal text-lg leading-[1.4] text-[#7D7D7D];
   }
+  .unorder-list {
+    @apply list-disc text-[#7D7D7D] pl-8
+  }
+
+  .order-list {
+    @apply list-decimal text-[#7D7D7D] pl-8
+  }
+
+  .list {
+    @apply text-lg font-medium leading-[1.5]
+  }
 }
