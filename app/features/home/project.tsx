@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function Project() {
   return (
     <div className="my-20">
@@ -14,7 +16,7 @@ export default function Project() {
           </h1>
         </div>
 
-        <button className="text-white font-semibold text-lg px-5 py-3 md:px-8 md:py-5 bg-secondary">Work More</button>
+        <Link href={'/projects'} className="text-white font-semibold text-lg px-5 py-3 md:px-8 md:py-5 bg-secondary">Work More</Link>
       </div>
 
       <div className="mx-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center">

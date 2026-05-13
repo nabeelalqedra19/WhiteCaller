@@ -18,11 +18,11 @@ export default function Banner() {
             <div className=" flex items-center justify-center lg:justify-start gap-1">
               <div className="point"></div>
               <div className="text-white font-semibold text-sm lg:text-lg leading-[1.4]">
-                The Case Studies
+                LT Techs
               </div>
             </div>
             <div className="lg:w-110 text-white text-center lg:text-start font-bold text-3xl sm:text-[40px] md:text-[50px] lg:text-[60px] leading-[1.1]">
-              Our Latest Projects
+              Financial Investment
             </div>
           </div>
         </div>
