@@ -1,0 +1,62 @@
+export default function DataAnalysis({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      width="60"
+      height="60"
+      viewBox="0 0 60 60"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.25 43.125V16.875"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M48.75 16.875V43.125"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M22.5 30V33.75"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M30 28.125V33.75"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M37.5 26.25V33.75"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M50.625 9.375H9.375C8.33947 9.375 7.5 10.2145 7.5 11.25V15C7.5 16.0355 8.33947 16.875 9.375 16.875H50.625C51.6605 16.875 52.5 16.0355 52.5 15V11.25C52.5 10.2145 51.6605 9.375 50.625 9.375Z"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.5 43.125H52.5"
+        stroke="#40DDB6"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

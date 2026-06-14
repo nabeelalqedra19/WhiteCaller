@@ -1,10 +1,10 @@
-import Banner from "../features/projects1/banner";
+import Banner from "../Components/reusable/banner";
 import LatestProject from "../features/projects1/latestProject";
 
 export default function Projects1() {
   return (
     <div>
-      <Banner />
+      <Banner type={"The Case Studies"} tittle={"Our Latest Projects"} description={""} imageUrl={'/projects1.png'}/>
       <LatestProject />
     </div>
   );

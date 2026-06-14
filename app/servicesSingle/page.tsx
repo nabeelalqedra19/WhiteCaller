@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import Banner from "../features/servicesSingle/banner";
+import Banner from "../Components/reusable/banner";
 
 export default function ServicesSingle() {
   return (
     <div>
-        <Banner />
+        <Banner type={"About The Services"} tittle={"Business Management"} description={""} imageUrl={'/servicesSingle/image3.png'}/>
       <div className="app-container flex flex-col lg:flex-row gap-10 my-30">
         <div className="flex flex-col gap-5">
           <div className=" flex flex-col md:flex-row lg:flex-col gap-5">

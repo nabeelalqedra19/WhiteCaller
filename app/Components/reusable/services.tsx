@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import Consultancy from "../icons/consultancy";
+import BusinessManagment from "../icons/businessManagment";
+import Program from "../icons/program";
+import Company from "../icons/company";
+import Jobs from "../icons/jobs";
 
 export default function Services() {
   return (
@@ -24,16 +29,15 @@ export default function Services() {
               Financial Consultancy
             </h1>
 
-            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
+            <Link
+              href={"#"}
+              className="text-button font-semibold text-lg cursor-pointer"
+            >
+              Read More
+            </Link>
           </div>
 
-          <Image
-            src={"/icons/financial.svg"}
-            alt="Financial Consultancy "
-            width={70}
-            height={70}
-            className="bg-secondary p-3 rounded-full "
-          />
+          <Consultancy className="services-icons" />
         </div>
         <div className="p-5 bg-[#F4F4F4] flex justify-between gap-5 items-start">
           <div className="flex flex-col gap-10">
@@ -41,16 +45,15 @@ export default function Services() {
               Business Management
             </h1>
 
-            <Link href={"/servicesSingle"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
+            <Link
+              href={"/servicesSingle"}
+              className="text-button font-semibold text-lg cursor-pointer"
+            >
+              Read More
+            </Link>
           </div>
 
-          <Image
-            src={"/icons/business.svg"}
-            alt="Financial Consultancy "
-            width={70}
-            height={70}
-            className="bg-button p-3 rounded-full "
-          />
+          <BusinessManagment className="services-icons" />
         </div>
         <div className="p-5 bg-[#F4F4F4] flex justify-between gap-5 items-start">
           <div className="flex flex-col gap-10">
@@ -58,16 +61,15 @@ export default function Services() {
               Consultants & program
             </h1>
 
-            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
+            <Link
+              href={"#"}
+              className="text-button font-semibold text-lg cursor-pointer"
+            >
+              Read More
+            </Link>
           </div>
 
-          <Image
-            src={"/icons/program.svg"}
-            alt="Financial Consultancy "
-            width={70}
-            height={70}
-            className="bg-secondary p-3 rounded-full "
-          />
+          <Program className="services-icons" />
         </div>
         <div className="p-5 bg-[#F4F4F4] flex justify-between gap-5 items-start">
           <div className="flex flex-col gap-10">
@@ -75,16 +77,15 @@ export default function Services() {
               Company Management
             </h1>
 
-            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
+            <Link
+              href={"#"}
+              className="text-button font-semibold text-lg cursor-pointer"
+            >
+              Read More
+            </Link>
           </div>
 
-          <Image
-            src={"/icons/company.svg"}
-            alt="Financial Consultancy "
-            width={70}
-            height={70}
-            className="bg-secondary p-3 rounded-full "
-          />
+          <Company className="services-icons" />
         </div>
         <div className="p-5 bg-[#F4F4F4] flex justify-between gap-5 items-start">
           <div className="flex flex-col gap-10">
@@ -92,20 +93,20 @@ export default function Services() {
               Financial Consultancy
             </h1>
 
-            <Link href={"#"} className="text-button font-semibold text-lg cursor-pointer">Read More</Link>
+            <Link
+              href={"#"}
+              className="text-button font-semibold text-lg cursor-pointer"
+            >
+              Read More
+            </Link>
           </div>
 
-          <div className="bg-secondary p-5 rounded-full ">
-          <Image
-            src={"/icons/experience2.svg"}
-            alt="Financial Consultancy "
-            width={40}
-            height={40}
-          />
-          </div>
+          <Jobs className="services-icons"/>
         </div>
 
-        <button className="text-white font-semibold text-xl bg-button cursor-pointer p-8">More Services</button>
+        <button className="text-white font-semibold text-xl bg-button cursor-pointer p-8">
+          More Services
+        </button>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import PlayBottun from "@/app/Components/icons/playBottun";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,7 +7,7 @@ export default function Banner() {
     <div className="font-inter">
       {/* Banner */}
       <div
-        className= "w-full md:h-100 lg:h-200"
+        className="w-full md:h-100 lg:h-200"
         style={{
           backgroundImage: "url('Image2.png')",
           backgroundSize: "cover",
@@ -38,12 +39,7 @@ export default function Banner() {
                 </button>
 
                 <div className="flex justify-center items-center gap-2">
-                  <Image
-                    src={"/icons/play Butten.svg"}
-                    alt="Play Button"
-                    width={60}
-                    height={60}
-                  />
+                  <PlayBottun />
                   <p className="text-white font-semibold text-lg leading-none">
                     Watch Vedio
                   </p>

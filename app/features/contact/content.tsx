@@ -1,3 +1,6 @@
+import Call from "@/app/Components/icons/call";
+import Email from "@/app/Components/icons/emai";
+import Location from "@/app/Components/icons/location";
 import Image from "next/image";
 
 export default function Content() {
@@ -29,13 +32,8 @@ export default function Content() {
 
           <div className="flex flex-col gap-5 w-fit lg:w-full mx-auto">
             <div className="flex items-center gap-4">
-              <div className="bg-[#F4F4F4] p-5 rounded-full">
-                <Image
-                  src={"/icons/call.svg"}
-                  alt="Icon"
-                  width={26}
-                  height={20}
-                />
+              <div className="bg-[#F4F4F4] p-4 rounded-full">
+                <Call />
               </div>
 
               <div>
@@ -47,12 +45,7 @@ export default function Content() {
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-[#F4F4F4] p-5 rounded-full">
-                <Image
-                  src={"/icons/email.svg"}
-                  alt="Icon"
-                  width={26}
-                  height={20}
-                />
+                <Email />
               </div>
 
               <div>
@@ -64,12 +57,7 @@ export default function Content() {
             </div>
             <div className="flex items-center gap-4">
               <div className="bg-[#F4F4F4] p-5 rounded-full">
-                <Image
-                  src={"/icons/location.svg"}
-                  alt="Icon"
-                  width={20}
-                  height={30}
-                />
+                <Location />
               </div>
 
               <div>

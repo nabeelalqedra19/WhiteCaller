@@ -1,5 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import Call from "../icons/call";
+import Email from "../icons/emai";
+import Location from "../icons/location";
+import Insta from "../icons/insta";
+import Facebook from "../icons/facebook";
+import Twitter from "../icons/twitter";
+import Pintrest from "../icons/pintrest";
 
 export default function Footer() {
   return (
@@ -10,13 +17,8 @@ export default function Footer() {
 
           <div className="flex flex-col md:flex-row justify-center lg:justify-between gap-10">
             <div className="flex items-center justify-between gap-2">
-              <div className="bg-[#4C4D52] p-5 rounded-full">
-                <Image
-                  src={"/icons/call.svg"}
-                  alt="Icon"
-                  width={26}
-                  height={20}
-                />
+              <div className="bg-[#4C4D52] p-6 rounded-full">
+                <Call />
               </div>
 
               <div>
@@ -26,13 +28,8 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center justify-between gap-2">
-              <div className="bg-[#4C4D52] p-5 rounded-full">
-                <Image
-                  src={"/icons/email.svg"}
-                  alt="Icon"
-                  width={26}
-                  height={20}
-                />
+              <div className="bg-[#4C4D52] p-7 rounded-full">
+                <Email />
               </div>
 
               <div>
@@ -42,13 +39,8 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center justify-between gap-2">
-              <div className="bg-[#4C4D52] p-5 rounded-full">
-                <Image
-                  src={"/icons/location.svg"}
-                  alt="Icon"
-                  width={20}
-                  height={30}
-                />
+              <div className="bg-[#4C4D52] rounded-full">
+                <Location className="m-6 w-[20px] h-[30px]" />
               </div>
 
               <div>
@@ -212,35 +204,16 @@ export default function Footer() {
           <div className="flex justify-center lg:justify-start items-center gap-3">
             <div className="text-lg">Follow : </div>
             <Link href="">
-              <Image
-                src="/icons/insta.svg"
-                alt="insta"
-                width={17}
-                height={16}
-              />
+              <Insta />
             </Link>
             <Link href="">
-              <Image
-                src="/icons/fb.svg"
-                alt="facebook"
-                width={18}
-                height={14}
-              />
+              <Facebook />
             </Link>
             <Link href="">
-              <Image
-                src="/icons/twitter.svg"
-                alt="twitter"
-                width={17}
-                height={20}
-              />
+              <Twitter />
             </Link>
             <Link href="">
-              <Image
-                src="/icons/pintrest.svg"
-                alt="pintrest"
-                width={20}
-                height={20}
+              <Pintrest
               />
             </Link>
           </div>

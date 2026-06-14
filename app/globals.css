@@ -41,4 +41,10 @@
   .list {
     @apply text-lg font-medium leading-[1.5]
   }
+  .services-icons {
+    @apply text-secondary hover:text-button cursor-pointer transition
+  }
+  .counts-icons {
+    @apply text-white hover:text-button transition cursor-pointer m-auto
+  }
 }

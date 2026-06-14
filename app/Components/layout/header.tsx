@@ -1,4 +1,11 @@
 import Image from "next/image";
+import Location from "../icons/location";
+import Email from "../icons/emai";
+import Time from "../icons/time";
+import Insta from "../icons/insta";
+import Facebook from "../icons/facebook";
+import Twitter from "../icons/twitter";
+import Pintrest from "../icons/pintrest";
 
 export default function Header() {
   return (
@@ -6,18 +13,13 @@ export default function Header() {
       <div className="app-container my-5 text-white flex flex-col justify-center gap-8 sm:flex-row sm:w-full sm:justify-between">
         <div className="flex flex-col justify-start gap-4 md:flex-row md:justify-between md:gap-10">
           <div className="flex gap-1 items-center">
-            <Image
-              src="/icons/location.svg"
-              alt="location"
-              width={15}
-              height={22}
-            />
+            <Location />
             <span className="font-normal text-sm leading-none">
               24 Olive Street, Prairie, NY 53590
             </span>
           </div>
           <div className="flex gap-1 items-center">
-            <Image src="/icons/email.svg" alt="email" width={20} height={15} />
+            <Email />
             <span className="font-normal text-sm leading-none">
               whitecollar@gmail.com
             </span>
@@ -25,7 +27,7 @@ export default function Header() {
         </div>
         <div className="flex flex-col justify-start gap-4 md:flex-row md:justify-between md:gap-10">
           <div className="flex gap-1 items-center">
-            <Image src="/icons/time.svg" alt="time" width={14} height={14} />
+            <Time />
             <span className="font-normal text-sm leading-none">
               Mon - Fri: 8:00 am - 5:00 pm
             </span>
@@ -33,36 +35,16 @@ export default function Header() {
 
           <div className="flex justify-start items-center gap-2">
             <a href="">
-              <Image
-                src="/icons/insta.svg"
-                alt="insta"
-                width={17}
-                height={16}
-              />
+              <Insta />
             </a>
             <a href="">
-              <Image
-                src="/icons/fb.svg"
-                alt="facebook"
-                width={18}
-                height={14}
-              />
+              <Facebook />
             </a>
             <a href="">
-              <Image
-                src="/icons/twitter.svg"
-                alt="twitter"
-                width={17}
-                height={20}
-              />
+              <Twitter />
             </a>
             <a href="">
-              <Image
-                src="/icons/pintrest.svg"
-                alt="pintrest"
-                width={20}
-                height={20}
-              />
+              <Pintrest />
             </a>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import PlayBottun from "@/app/Components/icons/playBottun";
 import Image from "next/image";
 
 export default function Video() {
@@ -24,7 +25,7 @@ export default function Video() {
           Collaboratively administrate channels whereas virtual tailers
           predominate procedures reliable supply chains.
         </p>
-        <Image src={'/aboutus/icons/playButtom.svg'} alt="Photo" width={70} height={70} className="m-auto" />
+        <PlayBottun className="m-auto cursor-pointer"/>
       </div>
     </div>
   );

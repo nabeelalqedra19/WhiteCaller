@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Check from "../icons/check";
+import Experience from "../icons/experience";
+import Winner from "../icons/winner";
 
 export default function About() {
   return (
@@ -31,7 +34,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="py-15 px-8 flex flex-col justify-start gap-6 bg-white">
+        <div className="py-15 flex flex-col justify-start gap-6 bg-white">
           <div>
             <div className=" flex items-center gap-1 justify-center lg:justify-start">
               <div className="point"></div>
@@ -60,12 +63,7 @@ export default function About() {
 
           <div className="m-auto lg:m-0">
             <div className="flex items-center gap-2 m-auto">
-              <Image
-                src={"/icons/check.svg"}
-                alt="Check Icon"
-                width={27}
-                height={27}
-              />
+              <Check className="text-button"/>
 
               <div className="text-primary font-normal text-lg sm:text-xl leading-none">
                 Components of a Business Strategy
@@ -73,12 +71,7 @@ export default function About() {
             </div>
 
             <div className="flex items-center gap-2 mt-4">
-              <Image
-                src={"/icons/check.svg"}
-                alt="Check Icon"
-                width={27}
-                height={27}
-              />
+              <Check className="text-button"/>
 
               <div className="text-primary font-normal text-xl leading-none">
                 Business Consulting
@@ -88,13 +81,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 ">
             <div className="flex gap-3 items-start p-7 border-1 border-[#E5E5E5] justify-center lg:justify-start">
-              <Image
-                src={"/icons/experience.svg"}
-                alt="Check Icon"
-                width={40}
-                height={40}
-                className="mt-1.5"
-              />
+              <Experience />
 
               <div className="w-55">
                 <h1 className="text-primary font-semibold text-xl">
@@ -106,13 +93,7 @@ export default function About() {
               </div>
             </div>
             <div className="flex gap-3 items-start p-7 border-1 border-[#E5E5E5] justify-center lg:justify-start">
-              <Image
-                src={"/icons/winner.svg"}
-                alt="Check Icon"
-                width={40}
-                height={40}
-                className="mt-1.5"
-              />
+              <Winner />
 
               <div className="w-55">
                 <h1 className="text-primary font-semibold text-xl">

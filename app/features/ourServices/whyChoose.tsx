@@ -1,3 +1,4 @@
+import Check from "@/app/Components/icons/check";
 import Image from "next/image";
 
 export default function WhyChose() {
@@ -21,12 +22,7 @@ export default function WhyChose() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 place-items-center md:items-stretch md:justify-items-stretch ">
           <div className="flex items-start gap-2">
-            <Image
-              src={"icons/check2.svg"}
-              alt={"Photo"}
-              width={22}
-              height={22}
-            />
+            <Check className="text-secondary" />
             <div className="font-normal text-xl ">
               <span className="font-bold">2,800+</span> Active clients
               <p className="text-lg text-[#7D7D7D] mt-1">
@@ -35,12 +31,7 @@ export default function WhyChose() {
             </div>
           </div>
           <div className="flex items-start gap-2">
-            <Image
-              src={"icons/check2.svg"}
-              alt={"Photo"}
-              width={22}
-              height={22}
-            />
+            <Check className="text-secondary" />
             <div className="font-normal text-xl ">
               <span className="font-bold">106+</span> Team members
               <p className="text-lg text-[#7D7D7D] mt-1">
@@ -49,12 +40,7 @@ export default function WhyChose() {
             </div>{" "}
           </div>
           <div className="flex items-start gap-2">
-            <Image
-              src={"icons/check2.svg"}
-              alt={"Photo"}
-              width={22}
-              height={22}
-            />
+            <Check className="text-secondary" />
             <div className="font-normal text-xl ">
               <span className="font-bold">106+</span> Team members
               <p className="text-lg text-[#7D7D7D] mt-1">
@@ -63,12 +49,7 @@ export default function WhyChose() {
             </div>{" "}
           </div>
           <div className="flex items-start gap-2">
-            <Image
-              src={"icons/check2.svg"}
-              alt={"Photo"}
-              width={22}
-              height={22}
-            />
+            <Check className="text-secondary" />
             <div className="font-normal text-xl ">
               <span className="font-bold">1,670+ </span>
               <span className="text-amber-400">5 stars</span> reviews

@@ -15,71 +15,71 @@ export default function Content() {
           Featured News And Insights
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
-        <div className="flex flex-col gap-3 justify-center items-center">
-          <Image src={"/blog1.png"} alt="blog" width={579} height={300} />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 place-items-start">
+        <div className="flex flex-col gap-3 justify-center items-center md:items-start">
+          <Image src={"/blog/image1.png"} alt="blog" width={579} height={300} />
           <h1 className="text-primary text-center sm:text-start font-semibold text-xl sm:text-2xl md:text-[30px] leading-[1.3]">
             A Business Consulting That Can Produce
           </h1>
-          <p className="text-[#7D7D7D] text-center sm:text-start text-sm sm:text-lg leading-[1.4]">
+          <p className="text-[#7D7D7D] text-center md:text-start text-sm sm:text-lg leading-[1.4]">
             Leverage agile frameworks to provide a robust synopsis for high
             level overviews.Iterative approaches to corporate strategy foster
             collaborative thinking.
           </p>
           <Link
-            href={"#"}
+            href={"/blog/one"}
             className="text-button font-semibold text-center sm:text-start text-sm sm:text-lg "
           >
             Read More
           </Link>
         </div>
-        <div className="flex flex-col gap-3 justify-center items-center">
+        <div className="flex flex-col gap-3 justify-center items-center md:items-start">
           <Image src={"/blog2.png"} alt="blog" width={579} height={300} />
           <h1 className="text-primary font-semibold text-center sm:text-start text-xl sm:text-2xl md:text-[30px] leading-[1.3]">
             Popular Email Marketing Techniques 2022
           </h1>
-          <p className="text-[#7D7D7D] text-center sm:text-start text-sm sm:text-lg leading-[1.4]">
+          <p className="text-[#7D7D7D] text-center md:text-start text-sm sm:text-lg leading-[1.4]">
             Leverage agile frameworks to provide a robust synopsis for high
             level overviews.Iterative approaches to corporate strategy foster
             collaborative thinking.
           </p>
           <Link
-            href={"/blogSingle"}
-            className="text-button font-semibold text-center sm:text-start text-sm sm:text-lg "
+            href={"/blog/two"}
+            className="text-button font-semibold text-sm sm:text-lg "
           >
             Read More
           </Link>
         </div>{" "}
-        <div className="flex flex-col gap-3 justify-center items-center">
+        <div className="flex flex-col gap-3 justify-center items-center md:items-start">
           <Image src={"/blog/image3.png"} alt="blog" width={579} height={300} />
           <h1 className="text-primary text-center sm:text-start font-semibold text-xl sm:text-2xl md:text-[30px] leading-[1.3]">
             What are backlinks and Why They are Important
           </h1>
-          <p className="text-[#7D7D7D] text-center sm:text-start text-sm sm:text-lg leading-[1.4]">
+          <p className="text-[#7D7D7D] text-center md:text-start text-sm sm:text-lg leading-[1.4]">
             Leverage agile frameworks to provide a robust synopsis for high
             level overviews.Iterative approaches to corporate strategy foster
             collaborative thinking.
           </p>
           <Link
-            href={"#"}
-            className="text-button font-semibold text-center sm:text-start text-sm sm:text-lg "
+            href={"/blog/three"}
+            className="text-button font-semibold text-sm sm:text-lg "
           >
             Read More
           </Link>
         </div>
-        <div className="flex flex-col gap-3 justify-center items-center">
+        <div className="flex flex-col gap-3 justify-center items-center md:items-start">
           <Image src={"/blog/image.png"} alt="blog" width={579} height={300} />
           <h1 className="text-primary font-semibold text-center sm:text-start text-xl sm:text-2xl md:text-[30px] leading-[1.3]">
             Importance of Keyword Research in a Blog
           </h1>
-          <p className="text-[#7D7D7D] text-center sm:text-start text-sm sm:text-lg leading-[1.4]">
+          <p className="text-[#7D7D7D] text-center md:text-start text-sm sm:text-lg leading-[1.4]">
             Leverage agile frameworks to provide a robust synopsis for high
             level overviews.Iterative approaches to corporate strategy foster
             collaborative thinking.
           </p>
           <Link
-            href={"#"}
-            className="text-button font-semibold text-center sm:text-start text-sm sm:text-lg "
+            href={"/blog/four"}
+            className="text-button font-semibold text-sm sm:text-lg "
           >
             Read More
           </Link>

@@ -1,3 +1,4 @@
+import Check from "@/app/Components/icons/check";
 import Image from "next/image";
 
 export default function HowWeWork() {
@@ -38,13 +39,7 @@ export default function HowWeWork() {
           </div>
           <div>
             <div className="flex items-start gap-4">
-              <Image
-                src={"/icons/check2.svg"}
-                alt="Alternate"
-                width={27}
-                height={27}
-                className="mt-1"
-              />
+              <Check className="text-secondary" />
 
               <div>
                 <h1 className="font-semibold text-xl ">Planning</h1>
@@ -55,13 +50,7 @@ export default function HowWeWork() {
               </div>
             </div>
             <div className="flex items-start gap-4 mt-5">
-              <Image
-                src={"/icons/check2.svg"}
-                alt="Alternate"
-                width={27}
-                height={27}
-                className="mt-1"
-              />
+              <Check className="text-secondary" />
 
               <div>
                 <h1 className="font-semibold text-xl ">Briefing</h1>
@@ -72,13 +61,7 @@ export default function HowWeWork() {
               </div>
             </div>
             <div className="flex items-start gap-4 mt-5">
-              <Image
-                src={"/icons/check2.svg"}
-                alt="Alternate"
-                width={27}
-                height={27}
-                className="mt-1"
-              />
+              <Check className="text-secondary" />
 
               <div>
                 <h1 className="font-semibold text-xl ">Evaluation</h1>
@@ -134,7 +117,11 @@ export default function HowWeWork() {
               placeholder="Service Description"
               className="bg-[#F8F8F8] w-full h-30 py-3 px-5 text-primary text-lg placeholder:text-primary placeholder:text-lg focus:outline-none focus:placeholder-transparent col-span-2"
             />
-            <input type="submit" value="Submit" className="text-primary bg-secondary font-semibold text-lg py-3 px-5 cursor-pointer col-span-2 sm:col-span-1" />
+            <input
+              type="submit"
+              value="Submit"
+              className="text-primary bg-secondary font-semibold text-lg py-3 px-5 cursor-pointer col-span-2 sm:col-span-1"
+            />
           </form>
         </div>
       </div>
